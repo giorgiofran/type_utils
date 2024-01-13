@@ -1,6 +1,6 @@
 
 # CHANGELOG type_utils
 
-## 1.0.0
+## 0.1.0
 
 - Initial version.
