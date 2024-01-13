@@ -8,8 +8,7 @@ abstract class Implementer<T> {
 
   @override
   bool operator ==(other) =>
-      runtimeType == other.runtimeType &&
-      value == (other as Implementer).value;
+      runtimeType == other.runtimeType && value == (other as Implementer).value;
 
   @override
   int get hashCode => '$runtimeType$value'.hashCode;
