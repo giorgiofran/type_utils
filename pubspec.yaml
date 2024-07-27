@@ -1,5 +1,5 @@
 name: type_utils
-version: 0.1.1
+version: 0.2.0
 
 description: Utilities for managing type and base utility classes.
 
@@ -9,11 +9,11 @@ funding:
   - https://www.paypal.com/donate?hosted_button_id=YRUNF9YWKX2NW
 
 environment:
-  sdk: '>=2.17.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 #dependencies:
   # path: ^1.8.0
 
 dev_dependencies:
-  lints: ^3.0.0
+  lints: ^4.0.0
   test: ^1.24.0
