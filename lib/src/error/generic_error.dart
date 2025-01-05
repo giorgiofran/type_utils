@@ -1,5 +1,5 @@
-class GenericError {
-  GenericError(this.originalErrorMessage,
+class ApplicationError {
+  ApplicationError(this.originalErrorMessage,
       {this.errorCode, this.stackTrace, this.externalSource});
 
   /// The original Error Message represents the error message in the default
@@ -16,14 +16,14 @@ class GenericError {
   final StackTrace? stackTrace;
 
   /// It is an identifier for the source of the error message )external driver,
-  /// etc. Each pari of ExternalSource-Error code must be unique.
+  /// etc. Each pair of ExternalSource-Error code must be unique.
   final String? externalSource;
 
   bool get internalError => externalSource == null;
 
   @override
   bool operator ==(other) =>
-      other is GenericError &&
+      other is ApplicationError &&
       (errorCode == null
           ? originalErrorMessage == other.originalErrorMessage
           : externalSource == other.externalSource &&

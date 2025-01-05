@@ -1,6 +1,6 @@
 import 'generic_error.dart';
 
-class TemplateError extends GenericError {
+class TemplateError extends ApplicationError {
   TemplateError(super.originalErrorMessage,
       {super.errorCode,
       super.stackTrace,

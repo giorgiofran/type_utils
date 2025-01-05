@@ -1,6 +1,10 @@
 
 # CHANGELOG type_utils
 
+## 0.2.1
+
+- GenericError class renamed as ApplicationError
+
 ## 0.2.0
 
 - Added Union Base Classes
