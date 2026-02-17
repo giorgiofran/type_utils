@@ -19,7 +19,7 @@ abstract class UnionType<T1, T2> {
   int get hashCode => Object.hash(valueOne, valueTwo);
 }
 
-T? _assignValue<T>(value) {
+T? _assignValue<T>(dynamic value) {
   if (value == null) {
     return null;
   } else if (value is T) {

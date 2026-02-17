@@ -1,6 +1,10 @@
 
 # CHANGELOG type_utils
 
+## 0.2.2
+
+- Lints update
+
 ## 0.2.1
 
 - GenericError class renamed as ApplicationError
